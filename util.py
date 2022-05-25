@@ -16,7 +16,11 @@ def get_pred(img):
      5: 'swiss cheese'
      }
     model = keras.models.load_model('model/final.h5')
+    
     img = tf.expand_dims(img, axis=0)
+
+    img = tf.image.resize(img, [227, 227])
+    print(img)
 
     pred = model(img)
     pred = softmax(pred[0])
@@ -24,4 +28,3 @@ def get_pred(img):
     i = int(tf.math.argmax(pred))
   
     return map_label[i], round(pred[i], 2)*100
-
