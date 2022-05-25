@@ -1,5 +1,7 @@
 # Mars orbital image (HiRISE) data classification using Deep Learning
 ### Fine Tuned ResNet50V2 with Imagenet weights to Mars Orbital (HiRISE) Image data
+## Detection example
+![Prediction](https://github.com/vaidik0508/Mars-HiRISE--data-classification/blob/main/model/pred.jpg)
 In this project, I have done classification of data consists of 6 classes. As below:
 
 Class id  |  Class Name
@@ -16,5 +18,5 @@ download raw data : [raw data](https://zenodo.org/record/2538136#.YookYqhBy3A) \
 download my cleaned data : [data](https://drive.google.com/file/d/1VZNjIRG3fzmMfpm0kgf3IOSt0QxEn-ty/view?usp=sharing)
 
 ## Training History
-![Training](
+![Training](https://github.com/vaidik0508/Mars-HiRISE--data-classification/blob/main/model/history.jpg)
 
