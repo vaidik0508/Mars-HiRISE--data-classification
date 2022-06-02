@@ -1,0 +1,6 @@
+0	Other
+1	Crater
+2	Dark Dune
+3	Slope Dtreak
+4	Bright Dune
+5	Swiss Cheese
