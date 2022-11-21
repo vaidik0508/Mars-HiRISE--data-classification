@@ -1,6 +1,6 @@
 # Mars orbital image (HiRISE) data classification using Deep Learning
 
-Check out [live demo](https://mars-data-classifier.herokuapp.com/)
+Check out [live demo](https://huggingface.co/spaces/vaidik0508/mars-orbitaldata-classification)
 
 ### Fine Tuned ResNet50V2 with Imagenet weights to Mars Orbital (HiRISE) Image data
 ## Classification example
